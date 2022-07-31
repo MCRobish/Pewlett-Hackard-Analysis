@@ -27,5 +27,12 @@ The purpose of this analysis was to take a set of several csv files containing H
 **Deliverable 2: Determining Employees Eligible for Mentorship Program**
 
 * Employees eligible for mentorship were defined as the employees below retirement age by approximately 10 years, or those born in 1965. These employees are defined in the _mentorship_eligiblity.csv_ file.  
-* There are only 1549 names in the list of eligible employees for mentorship, which would nto come close to covering the gap shown in the table above. Pewlett Hackard should increase their criteria window for mentorship to include more birth dates, or they will need to recruit more individuals that meet this mentorship criteria.
-* 
+* As part of this analysis, it would be important to understand how many new hires the mentors can handle at one time. For example, there are 169 names for Senior Engineer identified as mentors, but to cover the retirement gap, they would need to mentor approximately 180 people. 
+* In total, there are only 1549 names in the list of eligible employees for mentorship, which would not come close to covering the gap shown in the table above. Pewlett Hackard should increase their criteria window for mentorship to include more birth dates, or they will need to recruit more individuals that meet this mentorship criteria.
+* There are also no individuals within this mentorship criteria that have the title **Manager**. This means that if the two individuals with the title of **Manager** retire, there may not be a qualified person to mentor this role. 
+
+## Summary:
+_How many roles will need to be filled as the "silver tsunami" begins to make an impact?_ 
+90,398 positions have been identified as potentially being vacated with retirements upcoming. 
+_Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?_
+The mentorship eligible 

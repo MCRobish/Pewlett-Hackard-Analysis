@@ -32,7 +32,13 @@ The purpose of this analysis was to take a set of several csv files containing H
 * There are also no individuals within this mentorship criteria that have the title **Manager**. This means that if the two individuals with the title of **Manager** retire, there may not be a qualified person to mentor this role. 
 
 ## Summary:
-_How many roles will need to be filled as the "silver tsunami" begins to make an impact?_ 
+* _How many roles will need to be filled as the "silver tsunami" begins to make an impact?_ 
+
+
 90,398 positions have been identified as potentially being vacated with retirements upcoming. 
-_Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?_
-The mentorship eligible 
+
+
+* _Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?_
+
+
+The mentorship eligible list only includes 1549 names, which would be an overwhelming number of mentees for each mentor to handle. It is recommended to extend the birth date window to a larger group in order to give the mentees more focused attention. 

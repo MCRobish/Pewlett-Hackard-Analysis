@@ -7,9 +7,14 @@ The purpose of this analysis was to take a set of several csv files containing H
 
 **Deliverable 1: Determining the Titles Eligible for Retirement**
 
-* The definition of employees that are "at risk" of retiring was for employees with birth dates from 1952-1955. The _retirement_titles.csv_ file gives the employee number, names, titles and the dates those titles were help for all employees within that range of birth dates. However, that dataset is limited because some employees have received promotions and title changes throughout their careers, resulting in duplicate records. 
+* The definition of employees that are "at risk" of retiring was for employees with birth dates from 1952-1955. The _retirement_titles.csv_ file gives the employee number, names, titles and the dates those titles were help for all employees within that range of birth dates. However, that dataset is limited because some employees have received promotions and title changes throughout their careers, resulting in duplicate records. Two examples are shown in the screen shot below for Christian Koblick and Kyoichi Maliniak. This data set is also problematic because it does not exclude employees that have already retired or left the company. 
 
-![image](https://user-images.githubusercontent.com/105991478/182036595-1fea4ba4-05cd-4ab4-b3b6-3a3aac535832.png)
+<p align="center" width="100%">
+    <img width="50%" src=https://user-images.githubusercontent.com/105991478/182036595-1fea4ba4-05cd-4ab4-b3b6-3a3aac535832.png>
+</p>
 
-* 
+
+* In order to identify only the current employees that are potentially at risk of retiring, the 
+```DISTINCT ON (emp_no)``` statement was used. 
+
 ## Summary: 
